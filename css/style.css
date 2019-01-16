@@ -1,0 +1,299 @@
+/*font-family: 'PT Sans', sans-serif;*/
+
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'PT Sans', sans-serif;
+color: #898989;
+
+}
+/*header start */
+header{
+background-color: #fcdb00;
+padding-top: 50px;
+}
+.wraper{
+width:70%;
+margin: 0 auto;
+overflow: hidden;
+}
+
+/*header logo start*/
+.header_logo_text{
+	width: 15%;
+    float: left;
+    overflow: hidden;
+
+}
+.logo{
+	    width: 30%;
+    float: left;
+}
+}
+.logo img{
+	width: 100%;
+}
+.text{
+	float: left;
+}
+.text h1{
+	margin-top: 0px;
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+}
+/*header logo end*/
+
+/*menu bar star*/
+.menu_bar{
+	width:45%;
+	float: right;
+
+}
+.menu_bar nav{
+
+}
+.menu_bar nav ul{
+	float: right;
+	margin-top: 9px;
+}
+.menu_bar nav ul li{
+	    float: left;
+    list-style: none;
+}
+.menu_bar nav ul li a{
+	margin-right: 100px;
+    display: block;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    color: #010101;
+    transition: .5s;
+}
+.menu_bar nav ul li:last-child a{
+	margin-right: 0px;
+}
+.menu_bar nav ul li:hover a{
+	color: #ffff99;
+	background-color: #313841;
+}
+/*menu bar end*/
+/*header end */
+
+
+/*banner  part start*/
+
+/*banner text start*/
+#banner{
+	background-color: #fcdb00;
+	    padding: 85px 0px;
+}
+.banner_text{
+	width: 30%;
+	float: left;
+	margin-top: 75px;
+}
+.banner_text h2{
+	color: #010101;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.banner_text h4{
+	font-size: 20px;
+    font-weight: 400;
+    margin-top: 14px;
+    word-spacing: 1.5px;
+        margin-bottom: 16px;
+}
+.banner_text p{
+	font-size: 14px;
+    font-weight: 400;
+    word-spacing: 1px;
+}
+.icon{
+	margin-top: 35px;
+}
+.icon i{
+	    font-size: 42px;
+    color: #010101;
+    margin-right: 35px;
+}
+/*banner text end*/
+
+/*banner image start*/
+.banner_img{
+	width: 30%;
+    float: right;
+    margin-right: 107px;
+}
+.banner_img img{
+	width: 100%;
+}
+/*banner image end*/
+/*banner part end*/
+
+/*Tinyone features start*/
+#tinyone_features{
+	background-color: #ffffff;
+	padding: 85px 0px;
+}
+
+/*title start*/
+.t_t_rap{
+	width: 75%;
+	margin: 0 auto;
+}
+.features_title{}
+.features_title h1{
+	font-size: 32px;
+	font-weight: 700;
+	color: #101010;
+	text-align: center;
+	margin-bottom: 0px;
+}
+.features_title p{
+	font-size: 20px;
+	text-align: center;
+	    margin-top: 10px;
+	        word-spacing: 1px;
+
+}
+/*title end*/
+
+/*single start*/
+.single{
+width: 30%;
+overflow: hidden;
+float: left;
+margin-right: 35px;
+margin-top: 80px;
+}
+.single_logo{
+	width: 15%;
+	float: left;	
+}
+.single_logo i{
+	font-size: 50px;
+    color: black;
+}
+.single_text{
+	width: 75%;
+	float: right;	
+}
+.single_text h1{
+	    color: #010101;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.single_text p{
+	    font-size: 16px;
+    margin-top: 0px;
+}
+/*single end*/
+/*Tinyone features end*/
+
+/*Keep in touch with us start*/
+#keep_in_touch{
+	background-color: black;
+	    padding: 100px 0px;
+}
+.k_t_t_rap{
+	width:60%;
+	margin:0 auto;
+}
+.touch_title{}
+.touch_title h1{
+	color: #fcdb00;
+	text-align: center;
+	font-size: 32px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.touch_title p{
+	text-align: center;
+	font-size: 20px;
+	    margin-top: 25px;
+}
+
+/*email form start*/
+.mail_form{
+	padding-top: 40px;
+	text-align: center;
+}
+.mail_form input {}
+.email{
+	font-size: 16px;
+    padding: 9px;
+    width: 48%;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
+.mail_form form button{
+	    padding: 10px;
+    width: 9%;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color:#fcdb00;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.mail_form form button:hover{
+	background-color: #898989;
+	color: white;
+}
+/*email form end*/
+
+/*icon part start*/
+.touch_icon{
+ width:18%;
+ margin: 0 auto;
+ padding-top: 75px;
+}
+.touch_icon a{
+
+}
+.touch_icon a i{
+	font-size: 42px;
+	color: #fcdb00;
+	    margin-right: 28px;
+}
+
+/*footer part start*/
+footer{
+	padding-top: 125px;
+}
+.footer_single{
+	width:19%;
+	float: left;
+	    padding-right: 10px;
+}
+.footer_single p{
+	color: white;
+	font-size: 16px;
+}
+.footer_single ul{}
+.footer_single ul li{
+	list-style: none;
+}
+.footer_single ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 16px;
+}
+.footer_single ul li:hover a{
+	color:#fcdb00; 
+}
+/*footer part end*/
+
+/*icon part end*/
+/*Keep in touch with us end*/
